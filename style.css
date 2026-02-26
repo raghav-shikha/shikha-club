@@ -1079,7 +1079,7 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100%;
+  height: auto;
 }
 
 .step-num {
@@ -1094,27 +1094,27 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: var(--space-md);
+  margin-bottom: 0.55rem;
   flex-shrink: 0;
 }
 
 .step-content {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+  display: block;
 }
 
 .step-content h4 {
   font-size: 0.95rem;
   font-weight: 700;
-  margin-bottom: 0.2rem;
-  min-height: 1.5em;
+  margin-bottom: 0.08rem;
+  min-height: 0;
+  line-height: 1.2;
 }
 
 .step-item p {
   font-size: 0.8rem;
   color: var(--text-muted);
-  line-height: 1.4;
+  line-height: 1.35;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
