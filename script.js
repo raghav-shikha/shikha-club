@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
     });
 
-    document.querySelectorAll('.mobile-link').forEach(link => {
+    document.querySelectorAll('.mobile-link, #mobileMenu .btn').forEach(link => {
         link.addEventListener('click', () => {
             mobileBtn.classList.remove('active');
             mobileMenu.classList.remove('active');
